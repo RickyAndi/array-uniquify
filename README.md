@@ -1,16 +1,16 @@
-#arrayUniq
+#arrayUnique
 
 A simple function to remove duplicate element inside an array
 
 - example
 
 ````
-var arrayUniq = require('array-uniq');
+var arrayUnique = require('array-unique');
 
 var duplicatedArray = [1,1,1,1,1,3,3,3,3,3,3,3,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5];
-var uniqArray = arrayUniq(duplicatedArray);
+var uniqueArray = arrayUnique(duplicatedArray);
 
-console.log(uniqArray) => [1,3,4,5]
+console.log(uniqueArray) => [1,3,4,5]
 ```
 
 - test
