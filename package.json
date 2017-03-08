@@ -1,19 +1,19 @@
 {
-  "name": "array-unique",
+  "name": "array-uniquify",
   "version": "1.0.0",
   "description": "A simple function to remove duplicated element inside an array",
-  "main": "arrayUniq.js",
+  "main": "arrayUniquify.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha"
   },
   "keywords": [
-    "array-uniq"
+    "array-uniquify"
   ],
   "author": "RickyAndi",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RickyAndi/array-unique"
+    "url": "https://github.com/RickyAndi/array-uniquify"
   },
   "devDependencies": {
     "chai": "^3.5.0",
