@@ -2,7 +2,7 @@ function arrayLengthIsOne(array) {
 	return array.length == 1;
 }
 
-function arrayUniq(array) {
+function arrayUniquify(array) {
 	var uniqArray = [];
 
 	array.forEach(function(datumA) {
@@ -26,4 +26,4 @@ function arrayUniq(array) {
 	return uniqArray;
 }
 
-module.exports = arrayUniq;
+module.exports = arrayUniquify;
