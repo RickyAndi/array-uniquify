@@ -15,4 +15,6 @@ console.log(uniqArray) => [1,3,4,5]
 
 - test
 
+```
 to run test, type 'npm test'
+```
